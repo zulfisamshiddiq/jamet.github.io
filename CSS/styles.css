@@ -1,0 +1,113 @@
+.header-utama {
+    background-image: url(../assets/fotbar.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.judul {
+    text-align: center;
+    color: white;
+    margin: 0%;
+}
+
+nav>a {
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+a:hover {
+    color: red;
+}
+
+a {
+    padding: 2%;
+}
+
+.profile-icon-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.seblak {
+    height: 50px;
+    width: 50px;
+    background-image: url(../assets/SEBLAK.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.bakso {
+    height: 50px;
+    width: 50px;
+    background-image: url(../assets/BAKSO.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.gacoan {
+    height: 50px;
+    width: 50px;
+    background-image: url(../assets/GACOAN.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.menu {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.tempat-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.outdoor {
+    height: 50px;
+    width: 50px;
+    background-image: url(../assets/OUTDOORjpeg.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.indoor {
+    height: 50px;
+    width: 50px;
+    background-image: url(../assets/INDOOR.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.tempati {
+    padding-left: 1%;
+}
+
+.tempato {
+    padding-right: 1%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(35, 204, 255);
+    padding: 5%;
+    margin: 0%;
+}
+
+main {
+    background-color: rgb(215, 250, 182);
+    padding-bottom: 5%;
+}
+
+.footer {
+    margin: 0%;
+    font-size: 40px;
+}
